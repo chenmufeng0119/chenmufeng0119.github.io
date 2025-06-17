@@ -11,13 +11,13 @@ redirect_from:
 
 Education
 ======
-* B.S. in Optics, Huazhong University of Science and Technology, 2021
-* M.S. in EE, Zhejiang University, 2024 (expected)
+* B.S. in Optics, Huazhong University of Science and Technology, 2017-2021
+* RA at Zhejiang University, 2021-2024
 
 Work experience
 ======
 
-* 2021 - Present: Master Student
+* 2021 - 2024: Research Assistant
   * RFNE research center, Zhejiang University
   * Duties included: SNN-CIM design
   * Supervisor: Professor Erping Li
