@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Research projects across compute-in-memory circuits and neuromorphic / neuro-symbolic algorithms.
+description: Work across analog hybrid memory systems and the memory hierarchy built around them.
 nav: true
 nav_order: 3
 display_categories: [Purdue, Zhejiang University, Rice University]

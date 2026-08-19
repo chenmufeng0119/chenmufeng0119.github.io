@@ -4,7 +4,8 @@ cv:
   email: chen5240@purdue.edu
   location: West Lafayette, IN
   image: ''
-  summary: Ph.D. student at Purdue ECE working on compute-in-memory hardware/software co-design and neuro-symbolic AI.
+  summary: 'Ph.D. student at Purdue ECE working on memory-centric architecture and circuits: analog hybrid memory systems fusing eDRAM, RRAM and BEOL oxide-semiconductor FETs, and High-Bandwidth Flash as
+    a new tier in the memory hierarchy.'
   social_networks:
   - network: GitHub
     username: chenmufeng0119
@@ -19,7 +20,7 @@ cv:
       end_date: present
       highlights:
       - Advised by Prof. Haitong Li in the NanoX Lab.
-      - Research focus — analog hybrid memory systems and memory-centric AI acceleration.
+      - Research focus — analog hybrid memory systems, and High-Bandwidth Flash as a new memory tier.
     - institution: Huazhong University of Science and Technology
       location: Wuhan, China
       area: Optics and Electronic Engineering
@@ -34,9 +35,9 @@ cv:
       end_date: present
       summary: Advised by Prof. Haitong Li.
       highlights:
-      - Fused analog eDRAM-RRAM compute-in-memory macros.
+      - Analog hybrid memory macros fusing eDRAM, RRAM and BEOL oxide-semiconductor FETs.
       - Zeroth-order optimization for on-device LLM fine-tuning.
-      - Neuro-symbolic and hyperdimensional algorithm design.
+      - 'High-Bandwidth Flash as a memory tier: accelerator interface, placement, and cross-accelerator pooling.'
     - company: Zhejiang University
       position: Research Assistant, RFNE Research Center
       location: Hangzhou, China
@@ -87,11 +88,11 @@ cv:
       - Verilog/SystemVerilog
     - name: Research areas
       keywords:
+      - Memory hierarchy / HBF
       - Compute-in-memory
-      - Mixed-signal CMOS+X
       - Hybrid memory systems
+      - Mixed-signal CMOS+X
       - Hyperdimensional computing
-      - Spiking neural networks
     Transcripts:
     - label: B.S. transcript
       details: <a href="/assets/pdf/B.S.Transcript.pdf">download</a>

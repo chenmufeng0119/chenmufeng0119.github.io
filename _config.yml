@@ -9,11 +9,11 @@ last_name: Chen
 contact_note: >
   Email is the fastest way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Ph.D. student at Purdue ECE working on compute-in-memory hardware/software co-design and neuro-symbolic AI.
+  Ph.D. student at Purdue ECE working on memory-centric architecture and circuits: analog hybrid memory systems, and High-Bandwidth Flash as a new tier in the memory hierarchy.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: compute-in-memory, CIM, RRAM, eDRAM, mixed-signal circuits, neuro-symbolic AI, hyperdimensional computing, spiking neural networks, Purdue
+keywords: High-Bandwidth Flash, HBF, memory hierarchy, compute-in-memory, CIM, RRAM, eDRAM, hybrid memory, mixed-signal circuits, near-memory computing, LLM serving, Purdue
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🧠 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
