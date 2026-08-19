@@ -8,13 +8,22 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Ph.D. student at Purdue University working on Neuro-Symbolic (Nesy) and software/hardware co-design for CiM under the supervision of Professor Haitong Li in NanoX Lab.
+I am a Ph.D. student in Electrical and Computer Engineering at **Purdue University**, advised by Prof. <a href="https://engineering.purdue.edu/NanoX/">Haitong Li</a> in the NanoX Lab. My research sits at the boundary between circuits and algorithms: I build **compute-in-memory (CiM) hardware** and co-design the **learning and reasoning algorithms** that run on it.
 
-During Purdue, i focus on the analog design of Fused Analog CiM designa and Nesy algorithm design for better reasoning!
+Concretely, I work on two threads:
 
-During ZJU, I was the group leader of the RRAM-eDRAM hybrid CiM design program. In my role, I focus on algorithm development (SNN-based vision models) and optimization, the system level spec design, partly of the digital parts of the system, and dealing with the critical features of heterogenous integration of CiM. From the algorithm part, I also focus on some new machine learning aspects: Multimodal learning in SNN, hybrid DNN-HDC, etc. I interned at  <a href="https://vlsi.rice.edu/">SIMS Lab</a>, led by Prof.Kaiyuan Yang, to work on the design of charge domain CiM in 2022 summer, and <a href="https://engineering.purdue.edu/NanoX/">NanoX Lab</a>, led by Prof.Haitong Li, to work on the design of Hyperdimensional computing in 2023 summer.
+* **Fused analog CiM.** Mixed-signal macros that combine complementary memory technologies (eDRAM, RRAM, oxide-semiconductor BEOL FETs) to escape the usual density / endurance / retention trade-off, co-designed with training methods such as zeroth-order optimization for on-device LLM fine-tuning.
+* **Neuro-symbolic (NeSy) computing.** Algorithms that pair neural perception with symbolic structure — hyperdimensional / vector-symbolic representations in particular — to get better reasoning and on-chip learning out of memory-centric hardware.
 
-Before ZJU, I received my B.S. from the Department of Optics and Electronic Engineering at Huazhong University of Science and Technology. During my time there, I worked on various projects in silicon photonics, Machine Learning, and inverse optimization. I spent a semester as a research assistant at Chen Lin's Lab, working on a project to design achromatic metalenses.
+Previously, at **Zhejiang University** I led the RRAM-eDRAM hybrid CiM design group under Prof. Er-Ping Li, covering SNN-based vision models, system-level specification, parts of the digital design, and the heterogeneous-integration issues that come with fused CiM. On the algorithm side I also worked on multimodal learning in SNNs and hybrid DNN-HDC models. I interned at <a href="https://vlsi.rice.edu/">SIMS Lab</a> (Prof. Kaiyuan Yang, Rice) in summer 2022 on charge-domain CiM, and at <a href="https://engineering.purdue.edu/NanoX/">NanoX Lab</a> (Prof. Haitong Li, Purdue) in summer 2023 on hyperdimensional computing.
 
-Download my CV [here](http://chenmufeng0119.github.io/files/cv.pdf)
+Before that, I received my B.S. from the Department of Optics and Electronic Engineering at **Huazhong University of Science and Technology**, where I worked on silicon photonics, machine learning, and inverse design — including a semester as a research assistant in Prof. Chen Lin's lab designing achromatic metalenses.
 
+You can download my CV [here](/files/cv.pdf).
+
+## News
+
+* **Aug 2026** — *PROTEUS*, our 40 nm programmable general-purpose digital CiM accelerator, is available in early access at **IEEE JSSC**.
+* **Apr 2026** — *Heterogeneous Compute-in-Memory Fabrics for Efficient, Scalable Edge Inference and Learning* presented at **ISQED 2026**.
+* **Nov 2025** — *CENTAUR*, a 38.5-TFLOPS/W floating-point digital CiM engine, presented at **IEEE A-SSCC 2025**.
+* **May 2025** — *Analog Multilevel eDRAM-RRAM CIM for Zeroth-Order Fine-tuning of LLMs* presented at **IEEE IMW 2025**.
