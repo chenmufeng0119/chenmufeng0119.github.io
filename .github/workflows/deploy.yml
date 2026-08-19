@@ -96,9 +96,12 @@ jobs:
           # The Azure apt mirrors intermittently stall for 10+ minutes with no
           # output. Bound each request and let a broken mirror fall through to the
           # ImageMagick the runner image already ships.
-          sudo apt-get update -o Acquire::Retries=2 -o Acquire::http::Timeout=20 -o Acquire::https::Timeout=20 \
-            || echo 'apt-get update failed; continuing with preinstalled packages'
-          sudo apt-get install -y imagemagick \
+          # Acquire::*::Timeout does not cover a connection that stays open but
+          # stops delivering, which is how these stalls present. Bound the whole
+          # command instead, and fall through to the runner's own ImageMagick.
+          timeout 120 sudo apt-get update \
+            || echo 'apt-get update timed out; continuing with preinstalled packages'
+          timeout 120 sudo apt-get install -y imagemagick \
             || echo 'imagemagick install skipped; using preinstalled version'
           magick -version || convert -version
           pip3 install --upgrade nbconvert
