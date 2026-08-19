@@ -93,16 +93,12 @@ jobs:
           value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
-          # The Azure apt mirrors intermittently stall for 10+ minutes with no
-          # output. Bound each request and let a broken mirror fall through to the
-          # ImageMagick the runner image already ships.
-          # Acquire::*::Timeout does not cover a connection that stays open but
-          # stops delivering, which is how these stalls present. Bound the whole
-          # command instead, and fall through to the runner's own ImageMagick.
-          timeout 120 sudo apt-get update \
-            || echo 'apt-get update timed out; continuing with preinstalled packages'
-          timeout 120 sudo apt-get install -y imagemagick \
-            || echo 'imagemagick install skipped; using preinstalled version'
+          # The Azure apt mirrors are intermittently very slow rather than dead,
+          # so give the download real headroom but still bound it. ImageMagick is
+          # required by jekyll-imagemagick and is NOT present on the runner image;
+          # --no-install-recommends keeps this from pulling 25 MB of fonts.
+          timeout 600 sudo apt-get update || echo 'apt-get update timed out'
+          timeout 600 sudo apt-get install -y --no-install-recommends imagemagick
           magick -version || convert -version
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
