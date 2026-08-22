@@ -38,13 +38,7 @@ The circuits only matter if the algorithms above them change too, so this thread
 
 #### HBF + X
 
-**High-Bandwidth Flash (HBF)** puts NAND capacity inside the package at HBM-like bandwidth. That is a genuinely new tier in the hierarchy, not a faster SSD — and a tier behaves differently from a device. NAND page granularity, address mapping, background work, and queueing do not disappear just because the bandwidth is there. I am interested in what has to change above and below that tier:
-
-- **The HBF–accelerator interface.** HBM offers an implicit load/store contract that HBF cannot honor unchanged. What the interface should expose — and what it should hide — decides whether the capacity is usable or merely present.
-- **HBF as a distinct tier.** Which state actually belongs in flash: large, read-mostly, revisited after a gap. Placement and replacement policies written for a two-level hierarchy do not transfer cleanly to a three-level one.
-- **Pooling HBF across accelerators.** Package-level capacity is stranded if it is private to one GPU. Sharing a flash tier across accelerators raises questions of coherence, allocation, and interference that the single-device case never poses.
-
-The **X** is where this thread meets the first one: the HBF base die is real silicon that can host control and compute, so the same near-memory and in-memory techniques become available one level down in the hierarchy.
+I work on **High-Bandwidth Flash (HBF)** — NAND capacity inside the package at HBM-like bandwidth, a new tier in the hierarchy rather than a faster SSD. Three questions interest me: what the HBF–accelerator interface should expose, which state belongs in flash, and how the tier is shared across accelerators. The **X** is the base die: real silicon, one level further down, where this thread meets the first one.
 
 Before Purdue, at **Zhejiang University** I led the RRAM-eDRAM hybrid CiM design group under Prof. Er-Ping Li, covering SNN-based vision models, system-level specification, parts of the digital design, and the heterogeneous-integration issues that come with fused memory. I interned at [SIMS Lab](https://vlsi.rice.edu/) (Prof. Kaiyuan Yang, Rice) in summer 2022 on charge-domain CiM, and at [NanoX Lab](https://engineering.purdue.edu/NanoX/) (Prof. Haitong Li, Purdue) in summer 2023 on hyperdimensional computing.
 
