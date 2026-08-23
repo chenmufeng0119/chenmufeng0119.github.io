@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 cv_pdf: /assets/pdf/cv.pdf
 cv_format: rendercv # options: rendercv, jsonresume
-description: Education, research experience and skills. A PDF version is available above.
+description: Ph.D. student in Electrical and Computer Engineering. Education, research experience and skills. A PDF version is available above.
 toc:
   sidebar: left
 ---
