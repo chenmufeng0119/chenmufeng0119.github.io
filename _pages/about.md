@@ -28,7 +28,7 @@ latest_posts:
 
 I am a Ph.D. student in Electrical and Computer Engineering at **Purdue University**, advised by Prof. [Haitong Li](https://engineering.purdue.edu/NanoX/) in the NanoX Lab. I work on **memory-centric computer architecture and circuits** — building memory that does more than store, and rethinking the hierarchy around it once it does.
 
-My work runs along two threads.
+My work runs along two threads — one in on-chip memory, one at the storage end of the hierarchy.
 
 #### Analog hybrid memory systems
 
