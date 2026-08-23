@@ -1,22 +1,22 @@
 cv:
   name: Mufeng Chen
-  label: Ph.D. Student, Electrical and Computer Engineering
+  headline: Ph.D. Student, Electrical and Computer Engineering
   email: chen5240@purdue.edu
   location: West Lafayette, IN
-  image: ""
-  summary:
-    "Ph.D. student at Purdue ECE working on memory-centric architecture and circuits: analog hybrid memory systems fusing eDRAM, RRAM and BEOL oxide-semiconductor FETs, and High-Bandwidth Flash as
-    a new tier in the memory hierarchy."
   social_networks:
     - network: GitHub
       username: chenmufeng0119
   sections:
+    Summary:
+      - bullet:
+          "Ph.D. student at Purdue ECE working on memory-centric architecture and circuits: analog hybrid memory systems fusing eDRAM, RRAM and BEOL oxide-semiconductor FETs, and High-Bandwidth Flash as
+          a new tier in the memory hierarchy."
     Education:
       - institution: Purdue University
         location: West Lafayette, IN, USA
         url: https://engineering.purdue.edu/ECE
         area: Electrical and Computer Engineering
-        studyType: PhD
+        degree: PhD
         start_date: 2024
         end_date: present
         highlights:
@@ -25,7 +25,7 @@ cv:
       - institution: Huazhong University of Science and Technology
         location: Wuhan, China
         area: Optics and Electronic Engineering
-        studyType: BS
+        degree: BS
         start_date: 2017
         end_date: 2021
     Experience:
@@ -74,28 +74,13 @@ cv:
         summary: Advised by Prof. Chen Lin.
         highlights:
           - Optical metasurface design (achromatic metalenses).
-    Skills:
-      - name: Circuit & EDA
-        keywords:
-          - Cadence Virtuoso
-          - Synopsys VCS
-          - Design Compiler
-          - Innovus
-      - name: Programming
-        keywords:
-          - Python (PyTorch)
-          - C/C++
-          - MATLAB
-          - Verilog/SystemVerilog
-      - name: Research areas
-        keywords:
-          - Memory hierarchy / HBF
-          - Compute-in-memory
-          - Hybrid memory systems
-          - Mixed-signal CMOS+X
-          - Hyperdimensional computing
+    Technical Skills:
+      - label: Circuit & EDA
+        details: Cadence Virtuoso, Synopsys VCS, Design Compiler, Innovus
+      - label: Programming
+        details: Python (PyTorch), C/C++, MATLAB, Verilog/SystemVerilog
+      - label: Research areas
+        details: Memory hierarchy / HBF, compute-in-memory, hybrid memory systems, mixed-signal CMOS+X, hyperdimensional computing
     Transcripts:
-      - label: B.S. transcript
-        details: <a href="/assets/pdf/B.S.Transcript.pdf">download</a>
-      - label: Graduate transcript
-        details: <a href="/assets/pdf/M.S.Transcript.pdf">download</a>
+      - bullet: "B.S. transcript: [download](https://chenmufeng0119.github.io/assets/pdf/B.S.Transcript.pdf)"
+      - bullet: "Graduate transcript: [download](https://chenmufeng0119.github.io/assets/pdf/M.S.Transcript.pdf)"
