@@ -1,38 +1,15 @@
 name: Visual regression checks
 
+# Disabled on this site: the harness compares the current build against a
+# baseline worktree checked out at tag v0.16.3 (see "Prepare baseline worktree"
+# below). That is upstream al-folio's thin-starter migration check — it verifies
+# the gem-based render matches the last fat-theme release. This repo was
+# migrated from academicpages (3e54e59) and carries no al-folio tags at all, so
+# the baseline step fails with "fatal: invalid reference: v0.16.3" on every run.
+# Left as manual-dispatch rather than deleted: test/visual/ is still required by
+# test/style_contract.js, so removing the workflow would orphan it.
 on:
-  pull_request:
-    branches: [main, master, v1.0-dev]
-    paths:
-      - "_config.yml"
-      - "_data/**"
-      - "_bibliography/**"
-      - "_pages/**"
-      - "_posts/**"
-      - "_projects/**"
-      - "assets/**"
-      - "test/visual/**"
-      - ".github/workflows/visual-regression.yml"
-      - "package.json"
-      - "package-lock.json"
-      - "Gemfile"
-      - "Gemfile.lock"
-  push:
-    branches: [v1.0-dev]
-    paths:
-      - "_config.yml"
-      - "_data/**"
-      - "_bibliography/**"
-      - "_pages/**"
-      - "_posts/**"
-      - "_projects/**"
-      - "assets/**"
-      - "test/visual/**"
-      - ".github/workflows/visual-regression.yml"
-      - "package.json"
-      - "package-lock.json"
-      - "Gemfile"
-      - "Gemfile.lock"
+  workflow_dispatch:
 
 jobs:
   visual-regression:
