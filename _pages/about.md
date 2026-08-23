@@ -28,7 +28,7 @@ latest_posts:
 
 I am a Ph.D. student in Electrical and Computer Engineering at **Purdue University**, advised by Prof. [Haitong Li](https://engineering.purdue.edu/NanoX/) in the NanoX Lab. I work on **memory-centric computer architecture and circuits** — building memory that does more than store, and rethinking the hierarchy around it once it does.
 
-My work runs along two threads.
+My work runs along two threads — one in on-chip memory, one at the storage end of the hierarchy.
 
 #### Analog hybrid memory systems
 
@@ -38,7 +38,7 @@ The circuits only matter if the algorithms above them change too, so this thread
 
 #### HBF + X
 
-I work on **High-Bandwidth Flash (HBF)** — NAND capacity inside the package at HBM-like bandwidth, a new tier in the hierarchy rather than a faster SSD. Three questions interest me: what the HBF–accelerator interface should expose, which state belongs in flash, and how the tier is shared across accelerators. The **X** is the base die: real silicon, one level further down, where this thread meets the first one.
+I work on **High-Bandwidth Flash (HBF)** — NAND capacity inside the package at HBM-like bandwidth, a new tier in the hierarchy rather than a faster SSD. Three questions interest me: what the HBF–accelerator interface should expose, which state belongs in flash, and how the tier is shared across accelerators. The **X** is whatever the flash tier gets paired with — the accelerator that consumes it, the fabric that carries it, the logic die it sits on.
 
 Before Purdue, at **Zhejiang University** I led the RRAM-eDRAM hybrid CiM design group under Prof. Er-Ping Li, covering SNN-based vision models, system-level specification, parts of the digital design, and the heterogeneous-integration issues that come with fused memory. I interned at [SIMS Lab](https://vlsi.rice.edu/) (Prof. Kaiyuan Yang, Rice) in summer 2022 on charge-domain CiM, and at [NanoX Lab](https://engineering.purdue.edu/NanoX/) (Prof. Haitong Li, Purdue) in summer 2023 on hyperdimensional computing.
 
