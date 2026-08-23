@@ -24,4 +24,9 @@ In short: `al-folio` v1.x is a **thin Jekyll starter, not a theme**. It owns sta
 
 ## CI expectations
 
-Keep these workflows aligned when changing starter behavior: `unit-tests.yml` (style contract plus all six `test/integration_*.sh` scripts), `visual-regression.yml`, `upgrade-check.yml`, `prettier.yml`, and `deploy.yml`.
+Keep these workflows aligned when changing starter behavior: `unit-tests.yml` (style contract plus all six `test/integration_*.sh` scripts), `upgrade-check.yml`, `prettier.yml`, and `deploy.yml`.
+
+Two known-red checks on this site, both deliberate:
+
+- `visual-regression.yml` is manual-dispatch only — its baseline worktree needs an al-folio `v0.16.3` tag this repo does not have (migrated from academicpages, no upstream tags).
+- `unit-tests.yml` style contract reports `_includes` ownership, because `_includes/header.liquid` is an accepted override of the gem header (one-word label change, documented in the file).

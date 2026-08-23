@@ -1,3 +1,18 @@
+{% comment %}
+  Deliberate local override of al_folio_core's header include. This is the only
+  reason _includes/ exists here, and it is why test/style_contract.js reports
+  "Starter must not own core component path `_includes`" — an accepted deviation,
+  not an oversight.
+
+  The file is a verbatim copy of the gem's header.liquid except for one line:
+  the search button reads "search" instead of "ctrl k" (see the site.search_enabled
+  block below). Nothing else is customized.
+
+  Consequence: header changes shipped by al_folio_core — nav, a11y, dark mode —
+  do NOT reach this site. On every gem upgrade, diff this file against the gem's
+  version and re-apply the one-word change, or drop the override if upstream ever
+  exposes a config key for the label.
+{% endcomment %}
 <header>
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">

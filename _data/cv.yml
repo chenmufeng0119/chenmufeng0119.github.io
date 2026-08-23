@@ -3,98 +3,99 @@ cv:
   label: Ph.D. Student, Electrical and Computer Engineering
   email: chen5240@purdue.edu
   location: West Lafayette, IN
-  image: ''
-  summary: 'Ph.D. student at Purdue ECE working on memory-centric architecture and circuits: analog hybrid memory systems fusing eDRAM, RRAM and BEOL oxide-semiconductor FETs, and High-Bandwidth Flash as
-    a new tier in the memory hierarchy.'
+  image: ""
+  summary:
+    "Ph.D. student at Purdue ECE working on memory-centric architecture and circuits: analog hybrid memory systems fusing eDRAM, RRAM and BEOL oxide-semiconductor FETs, and High-Bandwidth Flash as
+    a new tier in the memory hierarchy."
   social_networks:
-  - network: GitHub
-    username: chenmufeng0119
+    - network: GitHub
+      username: chenmufeng0119
   sections:
     Education:
-    - institution: Purdue University
-      location: West Lafayette, IN, USA
-      url: https://engineering.purdue.edu/ECE
-      area: Electrical and Computer Engineering
-      studyType: PhD
-      start_date: 2024
-      end_date: present
-      highlights:
-      - Advised by Prof. Haitong Li in the NanoX Lab.
-      - Research focus — analog hybrid memory systems, and High-Bandwidth Flash as a new memory tier.
-    - institution: Huazhong University of Science and Technology
-      location: Wuhan, China
-      area: Optics and Electronic Engineering
-      studyType: BS
-      start_date: 2017
-      end_date: 2021
+      - institution: Purdue University
+        location: West Lafayette, IN, USA
+        url: https://engineering.purdue.edu/ECE
+        area: Electrical and Computer Engineering
+        studyType: PhD
+        start_date: 2024
+        end_date: present
+        highlights:
+          - Advised by Prof. Haitong Li in the NanoX Lab.
+          - Research focus — analog hybrid memory systems, and High-Bandwidth Flash as a new memory tier.
+      - institution: Huazhong University of Science and Technology
+        location: Wuhan, China
+        area: Optics and Electronic Engineering
+        studyType: BS
+        start_date: 2017
+        end_date: 2021
     Experience:
-    - company: Purdue University
-      position: Graduate Research Assistant, NanoX Lab
-      location: West Lafayette, IN, USA
-      start_date: 2024
-      end_date: present
-      summary: Advised by Prof. Haitong Li.
-      highlights:
-      - Analog hybrid memory macros fusing eDRAM, RRAM and BEOL oxide-semiconductor FETs.
-      - Zeroth-order optimization for on-device LLM fine-tuning.
-      - 'High-Bandwidth Flash as a memory tier: accelerator interface, placement, and cross-accelerator pooling.'
-    - company: Zhejiang University
-      position: Research Assistant, RFNE Research Center
-      location: Hangzhou, China
-      start_date: 2021
-      end_date: 2024
-      summary: Advised by Prof. Er-Ping Li. Group leader of the RRAM-eDRAM hybrid CiM design program.
-      highlights:
-      - Group leader for the RRAM-eDRAM hybrid CiM design program.
-      - SNN-based vision models, multimodal learning in SNNs, hybrid DNN-HDC.
-      - System-level specification, digital design, and heterogeneous integration of fused CiM.
-    - company: Purdue University
-      position: Research Intern, NanoX Lab
-      location: West Lafayette, IN, USA
-      start_date: 2023
-      end_date: 2023
-      summary: Summer internship, advised by Prof. Haitong Li.
-      highlights:
-      - Monolithic 3D-RRAM compute-in-memory.
-      - Hyperdimensional computing for vision transformers.
-    - company: Rice University
-      position: Research Intern, SIMS Lab
-      location: Houston, TX, USA
-      start_date: 2022
-      end_date: 2022
-      summary: Summer internship, advised by Prof. Kaiyuan Yang.
-      highlights:
-      - Charge-domain SRAM-CiM for Bayesian neural networks.
-    - company: Wuhan National Laboratory for Optoelectronics
-      position: Research Assistant
-      location: Wuhan, China
-      start_date: 2019
-      end_date: 2019
-      summary: Advised by Prof. Chen Lin.
-      highlights:
-      - Optical metasurface design (achromatic metalenses).
+      - company: Purdue University
+        position: Graduate Research Assistant, NanoX Lab
+        location: West Lafayette, IN, USA
+        start_date: 2024
+        end_date: present
+        summary: Advised by Prof. Haitong Li.
+        highlights:
+          - Analog hybrid memory macros fusing eDRAM, RRAM and BEOL oxide-semiconductor FETs.
+          - Zeroth-order optimization for on-device LLM fine-tuning.
+          - "High-Bandwidth Flash as a memory tier: accelerator interface, placement, and cross-accelerator pooling."
+      - company: Zhejiang University
+        position: Research Assistant, RFNE Research Center
+        location: Hangzhou, China
+        start_date: 2021
+        end_date: 2024
+        summary: Advised by Prof. Er-Ping Li. Group leader of the RRAM-eDRAM hybrid CiM design program.
+        highlights:
+          - Group leader for the RRAM-eDRAM hybrid CiM design program.
+          - SNN-based vision models, multimodal learning in SNNs, hybrid DNN-HDC.
+          - System-level specification, digital design, and heterogeneous integration of fused CiM.
+      - company: Purdue University
+        position: Research Intern, NanoX Lab
+        location: West Lafayette, IN, USA
+        start_date: 2023
+        end_date: 2023
+        summary: Summer internship, advised by Prof. Haitong Li.
+        highlights:
+          - Monolithic 3D-RRAM compute-in-memory.
+          - Hyperdimensional computing for vision transformers.
+      - company: Rice University
+        position: Research Intern, SIMS Lab
+        location: Houston, TX, USA
+        start_date: 2022
+        end_date: 2022
+        summary: Summer internship, advised by Prof. Kaiyuan Yang.
+        highlights:
+          - Charge-domain SRAM-CiM for Bayesian neural networks.
+      - company: Wuhan National Laboratory for Optoelectronics
+        position: Research Assistant
+        location: Wuhan, China
+        start_date: 2019
+        end_date: 2019
+        summary: Advised by Prof. Chen Lin.
+        highlights:
+          - Optical metasurface design (achromatic metalenses).
     Skills:
-    - name: Circuit & EDA
-      keywords:
-      - Cadence Virtuoso
-      - Synopsys VCS
-      - Design Compiler
-      - Innovus
-    - name: Programming
-      keywords:
-      - Python (PyTorch)
-      - C/C++
-      - MATLAB
-      - Verilog/SystemVerilog
-    - name: Research areas
-      keywords:
-      - Memory hierarchy / HBF
-      - Compute-in-memory
-      - Hybrid memory systems
-      - Mixed-signal CMOS+X
-      - Hyperdimensional computing
+      - name: Circuit & EDA
+        keywords:
+          - Cadence Virtuoso
+          - Synopsys VCS
+          - Design Compiler
+          - Innovus
+      - name: Programming
+        keywords:
+          - Python (PyTorch)
+          - C/C++
+          - MATLAB
+          - Verilog/SystemVerilog
+      - name: Research areas
+        keywords:
+          - Memory hierarchy / HBF
+          - Compute-in-memory
+          - Hybrid memory systems
+          - Mixed-signal CMOS+X
+          - Hyperdimensional computing
     Transcripts:
-    - label: B.S. transcript
-      details: <a href="/assets/pdf/B.S.Transcript.pdf">download</a>
-    - label: Graduate transcript
-      details: <a href="/assets/pdf/M.S.Transcript.pdf">download</a>
+      - label: B.S. transcript
+        details: <a href="/assets/pdf/B.S.Transcript.pdf">download</a>
+      - label: Graduate transcript
+        details: <a href="/assets/pdf/M.S.Transcript.pdf">download</a>
