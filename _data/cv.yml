@@ -69,17 +69,17 @@ cv:
         summary: Advised by Prof. Chen Lin.
     Selected Publications:
       - bullet: >-
-          M. Chen, L. Zheng, J.-Y. Lin, P. D. Ye, and H. Li. “Analog Multilevel eDRAM-RRAM CIM for Zeroth-Order Fine-tuning of LLMs.” 2025 IEEE International Memory Workshop, pp. 1–4. DOI: 10.1109/IMW61990.2025.11026966.
+          **M. Chen**, L. Zheng, J.-Y. Lin, P. D. Ye, and H. Li. “Analog Multilevel eDRAM-RRAM CIM for Zeroth-Order Fine-tuning of LLMs.” 2025 IEEE International Memory Workshop, pp. 1–4. DOI: 10.1109/IMW61990.2025.11026966.
       - bullet: >-
-          L. Zheng, A. M. Bavani, M. Chen, et al. “PROTEUS: A 40 nm Programmable General-Purpose Digital Compute-In-Memory Accelerator With eNVM and Hierarchical ISA for Versatile Edge AI.” IEEE Journal of Solid-State Circuits, 2026. DOI: 10.1109/JSSC.2026.3694285.
+          L. Zheng, A. M. Bavani, **M. Chen**, et al. “PROTEUS: A 40 nm Programmable General-Purpose Digital Compute-In-Memory Accelerator With eNVM and Hierarchical ISA for Versatile Edge AI.” IEEE Journal of Solid-State Circuits, 2026. DOI: 10.1109/JSSC.2026.3694285.
       - bullet: >-
-          L. Zheng, Z. Wang, S. Du, M. Chen, A. M. Bavani, and H. Li. “Heterogeneous Compute-in-Memory Fabrics for Efficient, Scalable Edge Inference and Learning.” 2026 International Symposium on Quality Electronic Design. DOI: 10.1109/ISQED69900.2026.11534674.
+          L. Zheng, Z. Wang, S. Du, **M. Chen**, A. M. Bavani, and H. Li. “Heterogeneous Compute-in-Memory Fabrics for Efficient, Scalable Edge Inference and Learning.” 2026 International Symposium on Quality Electronic Design. DOI: 10.1109/ISQED69900.2026.11534674.
       - bullet: >-
-          L. Zheng, A. M. Bavani, S. Du, T.-Y. Hsin, M. Chen, W.-S. Khwa, A. Lele, et al. “CENTAUR: A 38.5-TFLOPS/W 600MHz Floating-Point Digital Compute-In-Memory Engine with 40nm Fusion RRAM-eDRAM Macros Featuring 3D-MAC Operation.” 2025 IEEE Asian Solid-State Circuits Conference. DOI: 10.1109/A-SSCC67472.2025.11349414.
+          L. Zheng, A. M. Bavani, S. Du, T.-Y. Hsin, **M. Chen**, W.-S. Khwa, A. Lele, et al. “CENTAUR: A 38.5-TFLOPS/W 600MHz Floating-Point Digital Compute-In-Memory Engine with 40nm Fusion RRAM-eDRAM Macros Featuring 3D-MAC Operation.” 2025 IEEE Asian Solid-State Circuits Conference. DOI: 10.1109/A-SSCC67472.2025.11349414.
       - bullet: >-
-          E.-P. Li, H. Ma, M. Ahmed, T. Tao, Z. Gu, M. Chen, Q. Chen, D. Li, and W. Chen. “An Electromagnetic Perspective of Artificial Intelligence Neuromorphic Chips.” Electromagnetic Science, 1(3), 2023. DOI: 10.23919/emsci.2023.0015.
+          E.-P. Li, H. Ma, M. Ahmed, T. Tao, Z. Gu, **M. Chen**, Q. Chen, D. Li, and W. Chen. “An Electromagnetic Perspective of Artificial Intelligence Neuromorphic Chips.” Electromagnetic Science, 1(3), 2023. DOI: 10.23919/emsci.2023.0015.
       - bullet: >-
-          C. Yu, Y. Du, M. Chen, A. Wang, G. Wang, and E. Li. “MAP-SNN: Mapping Spike Activities with Multiplicity, Adaptability, and Plasticity into Bio-Plausible Spiking Neural Networks.” Frontiers in Neuroscience, 16, 945037, 2022. DOI: 10.3389/fnins.2022.945037.
+          C. Yu, Y. Du, **M. Chen**, A. Wang, G. Wang, and E. Li. “MAP-SNN: Mapping Spike Activities with Multiplicity, Adaptability, and Plasticity into Bio-Plausible Spiking Neural Networks.” Frontiers in Neuroscience, 16, 945037, 2022. DOI: 10.3389/fnins.2022.945037.
     Technical Skills:
       - label: Circuit & EDA
         details: Cadence Virtuoso, Synopsys VCS, Design Compiler, Innovus

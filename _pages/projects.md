@@ -337,7 +337,7 @@ nav_order: 3
 
   <section class="hbf-level" aria-labelledby="hbf-level-title">
     <p class="section-kicker">In progress</p>
-    <h2 id="hbf-level-title">High-Bandwidth Flash (HBF) Level</h2>
+    <h2 id="hbf-level-title">Main/Storage-Class Memory Level</h2>
     <div class="hbf-feature">
       <p>Exploring high-bandwidth flash within heterogeneous memory systems for GPU-based AI and LLM workloads.</p>
     </div>

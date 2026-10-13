@@ -40,6 +40,11 @@ def pdf_string(value: str) -> bytes:
     return bytes(escaped)
 
 
+def strip_markdown_emphasis(value: str) -> str:
+    """Remove bold markers used only to style author names on the HTML CV."""
+    return re.sub(r"\*\*(.*?)\*\*", r"\1", value)
+
+
 class CVPDF:
     def __init__(self, cv: dict):
         self.cv = cv
@@ -107,6 +112,7 @@ class CVPDF:
         if "bullet" in item:
             citation = str(item["bullet"])
             if section == "Selected Publications":
+                citation = strip_markdown_emphasis(citation)
                 title_match = re.search(r"“([^”]+)”", citation)
                 if title_match:
                     authors = citation[: title_match.start()].strip().rstrip(" .")
@@ -318,7 +324,7 @@ def resume_json(cv: dict) -> dict:
 
     publications = []
     for item in sections.get("Selected Publications", []) or []:
-        citation = str(item.get("bullet", ""))
+        citation = strip_markdown_emphasis(str(item.get("bullet", "")))
         title_match = re.search(r"“([^”]+)”", citation)
         title = title_match.group(1) if title_match else citation
         before = citation[: title_match.start()].strip() if title_match else ""
