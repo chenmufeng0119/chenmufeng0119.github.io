@@ -1,9 +1,12 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+JSSC:
   color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
+ISQED:
   color: "#009f36"
+A-SSCC:
+  color: "#b31b1b"
+IMW:
+  color: "#6f42c1"
+EM Sci.:
+  color: "#008080"
+Front. Neurosci.:
+  color: "#d2691e"

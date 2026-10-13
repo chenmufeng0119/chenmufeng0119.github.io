@@ -3,10 +3,10 @@ layout: cv
 permalink: /cv/
 title: CV
 nav: true
-nav_order: 5
+nav_order: 6
 cv_pdf: /assets/pdf/cv.pdf
 cv_format: rendercv # options: rendercv, jsonresume
-description: Ph.D. student in Electrical and Computer Engineering. Education, research experience and skills. A PDF version is available above.
+description: Curriculum vitae for Mufeng Chen, a Ph.D. student in Electrical and Computer Engineering at Purdue University.
 toc:
   sidebar: left
 ---

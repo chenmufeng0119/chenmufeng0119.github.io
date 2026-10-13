@@ -1,15 +1,16 @@
 ---
 layout: page
-title: Fused analog eDRAM-RRAM CiM
-description: Mixed-signal macros that escape the density / endurance / retention trade-off
+title: Analog eDRAM-RRAM compute-in-memory
+description: Published hybrid-memory work for on-device LLM fine-tuning
+img: assets/img/projects/imw25-poster.jpeg
+preview_layout: wide
 importance: 1
-category: Purdue
+category: Domain-Specific Accelerators
 ---
 
-Analog multi-level-cell eDRAM-RRAM compute-in-memory co-designed with zeroth-order optimization for on-device LLM fine-tuning.
+This IEEE IMW 2025 paper presents analog multilevel eDRAM-RRAM compute-in-memory co-designed with zeroth-order optimization for on-device LLM fine-tuning.
 
-- An RRAM-assisted eDRAM MLC programming scheme, paired with a PVT-robust, large-sensing-window time-to-digital converter.
-- MLC-eDRAM integrating a two-finger MOM capacitor, giving 12x better bit density than state-of-the-art MLC designs.
-- BEOL In2O3 FETs contributing another 5x density and 2x retention benefit.
+- The paper reports an RRAM-assisted multilevel eDRAM programming scheme and a PVT-robust time-to-digital converter.
+- It reports 12× higher bit density for the MLC-eDRAM design than the compared state of the art, with additional density and retention benefits from BEOL In2O3 FETs.
 
-Published at IEEE IMW 2025, and extended in the CENTAUR floating-point CiM engine (A-SSCC 2025) and the PROTEUS general-purpose accelerator (JSSC).
+[Publication record](/publications/) · [Paper PDF](/assets/pdf/imw25-edram-rram-cim.pdf)

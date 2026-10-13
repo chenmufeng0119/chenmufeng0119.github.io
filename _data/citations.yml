@@ -1,27 +1,5 @@
 metadata:
-  last_updated: '2026-09-07'
-papers:
-  FKZmlWIAAAAJ:2osOgNQ5qMEC:
-    citations: 4
-    title: 'CENTAUR: A 38.5-TFLOPS/W 600MHz Floating-Point Digital Compute-In-Memory Engine with 40nm Fusion RRAM-eDRAM Macros Featuring 3D-MAC Operation'
-    year: '2025'
-  FKZmlWIAAAAJ:9yKSN-GCB0IC:
-    citations: 4
-    title: Analog Multilevel eDRAM-RRAM CIM for Zeroth-Order Fine-tuning of LLMs
-    year: '2025'
-  FKZmlWIAAAAJ:UeHWp8X0CEIC:
-    citations: 0
-    title: Heterogeneous Compute-in-Memory Fabrics for Efficient, Scalable Edge Inference and Learning
-    year: '2026'
-  FKZmlWIAAAAJ:d1gkVwhDpl0C:
-    citations: 65
-    title: An electromagnetic perspective of artificial intelligence neuromorphic chips
-    year: '2023'
-  FKZmlWIAAAAJ:qjMakFHDy7sC:
-    citations: 0
-    title: 'PROTEUS: A 40 nm Programmable General-Purpose Digital Compute-In-Memory Accelerator With eNVM and Hierarchical ISA for Versatile Edge AI'
-    year: '2026'
-  FKZmlWIAAAAJ:u5HHmVD_uO8C:
-    citations: 6
-    title: 'MAP-SNN: Mapping spike activities with multiplicity, adaptability, and plasticity into bio-plausible spiking neural networks'
-    year: '2022'
+  scholar_userid: FKZmlWIAAAAJ
+  author_name: Mufeng Chen
+  last_updated: null
+papers: {}

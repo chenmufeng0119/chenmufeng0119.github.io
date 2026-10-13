@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Memory-centric architecture and circuits. Ph.D. student, <a href='https://engineering.purdue.edu/ECE'>ECE</a>, Purdue University &middot; <a href='https://engineering.purdue.edu/NanoX/'>NanoX Lab</a>.
+subtitle: Cross-Layer Heterogeneous Memory Systems for AI and Optimization. Ph.D. student, <a href='https://engineering.purdue.edu/ECE'>ECE</a>, Purdue University &middot; <a href='https://engineering.purdue.edu/NanoX/'>NanoX Lab</a>.
 
 profile:
   align: right
@@ -26,20 +26,12 @@ latest_posts:
   limit: 3
 ---
 
-I am a Ph.D. student in Electrical and Computer Engineering at **Purdue University**, advised by Prof. [Haitong Li](https://engineering.purdue.edu/NanoX/) in the NanoX Lab. I work on **memory-centric computer architecture and circuits** — building memory that does more than store, and rethinking the hierarchy around it once it does.
+I am a Ph.D. student in Electrical and Computer Engineering at **Purdue University**, advised by Prof. [Haitong Li](https://engineering.purdue.edu/NanoX/) in the NanoX Lab. My current research focuses on **GPU and heterogeneous memory-system architecture for AI and LLM workloads**, within the broader theme of **cross-layer heterogeneous memory systems for AI and optimization**.
 
-My work runs along two threads — one in on-chip memory, one at the storage end of the hierarchy.
+#### Research areas
 
-#### Analog hybrid memory systems
+I study how memory-hierarchy design and data movement shape the efficiency of AI and LLM systems. My ongoing work explores high-bandwidth flash within heterogeneous memory systems for GPU-based AI workloads. At the cache level, my GPU architecture project explores register-file caching and warp scheduling.
 
-Single-technology memory forces a hard trade-off between density, endurance, and retention. I design **mixed-signal macros that fuse complementary technologies into one array** — eDRAM for fast decoupled read/write, RRAM for non-volatile density, and BEOL oxide-semiconductor FETs for retention — so that the trade-off becomes a design knob rather than a constraint.
+This systems focus builds on my research in memory technologies and circuit–architecture co-design. At the domain-specific accelerator level, my published work includes my first-author paper on [analog multilevel eDRAM–RRAM CIM for LLM fine-tuning](https://doi.org/10.1109/IMW61990.2025.11026966), the [CENTAUR floating-point CIM engine](/projects/7_centaur/), the [PROTEUS programmable CIM accelerator](/projects/8_proteus/), and [heterogeneous CIM fabrics for edge inference and learning](/projects/9_isqed/). [Explore the research overview](/projects/#research-overview).
 
-The circuits only matter if the algorithms above them change too, so this thread is co-designed with the workload: RRAM-assisted multi-level programming paired with zeroth-order optimization for on-device LLM fine-tuning, floating-point dataflows that avoid alignment-induced accuracy loss, and hyperdimensional / vector-symbolic representations that make on-chip learning cheap.
-
-#### HBF + X
-
-I work on **High-Bandwidth Flash (HBF)** — NAND capacity inside the package at HBM-like bandwidth, a new tier in the hierarchy rather than a faster SSD. Three questions interest me: what the HBF–accelerator interface should expose, which state belongs in flash, and how the tier is shared across accelerators. The **X** is whatever the flash tier gets paired with — the accelerator that consumes it, the fabric that carries it, the logic die it sits on.
-
-Before Purdue, at **Zhejiang University** I led the RRAM-eDRAM hybrid CiM design group under Prof. Er-Ping Li, covering SNN-based vision models, system-level specification, parts of the digital design, and the heterogeneous-integration issues that come with fused memory. I interned at [SIMS Lab](https://vlsi.rice.edu/) (Prof. Kaiyuan Yang, Rice) in summer 2022 on charge-domain CiM, and at [NanoX Lab](https://engineering.purdue.edu/NanoX/) (Prof. Haitong Li, Purdue) in summer 2023 on hyperdimensional computing.
-
-I received my B.S. from the Department of Optics and Electronic Engineering at **Huazhong University of Science and Technology**, where I worked on silicon photonics, machine learning, and inverse design.
+Before Purdue, I conducted research at **Zhejiang University** under Prof. Er-Ping Li. I completed summer research internships at [Rice University's SIMS Lab](https://vlsi.rice.edu/) with Prof. Kaiyuan Yang in 2022 and Purdue's NanoX Lab with Prof. Haitong Li in 2023. I earned a **B.Eng. in Optical and Electronic Information Engineering** from **Huazhong University of Science and Technology**.

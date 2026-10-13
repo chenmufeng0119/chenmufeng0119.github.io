@@ -9,11 +9,11 @@ last_name: Chen
 contact_note: >
   Email is the fastest way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Ph.D. student at Purdue ECE working on memory-centric architecture and circuits: analog hybrid memory systems, and High-Bandwidth Flash as a new tier in the memory hierarchy.
+  Ph.D. student at Purdue ECE researching cross-layer heterogeneous memory systems for AI and optimization workloads, including compute-in-memory.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: High-Bandwidth Flash, HBF, memory hierarchy, compute-in-memory, CIM, RRAM, eDRAM, hybrid memory, mixed-signal circuits, near-memory computing, LLM serving, Purdue
+keywords: AI workloads, optimization workloads, heterogeneous memory, cross-layer memory systems, computer architecture, compute-in-memory, Purdue
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🧠 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
@@ -95,7 +95,7 @@ al_folio:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 posts_in_search: false
@@ -109,9 +109,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: /assets/img/prof_pic.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -227,6 +227,9 @@ exclude:
   - docker-compose.yml
   - docker-compose-slim.yml
   - docs/
+  - assets/pdf/B.S.Transcript.pdf
+  - assets/pdf/M.S.Transcript.pdf
+  - assets/json/table_data.json
   - Gemfile
   - Gemfile.lock
   - LICENSE

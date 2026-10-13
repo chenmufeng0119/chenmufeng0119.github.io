@@ -1,6 +1,6 @@
 cv:
   name: Mufeng Chen
-  headline: Ph.D. Student, Electrical and Computer Engineering
+  headline: Ph.D. Student and Graduate Research Assistant, Electrical and Computer Engineering
   email: chen5240@purdue.edu
   location: West Lafayette, IN
   social_networks:
@@ -8,24 +8,28 @@ cv:
       username: chenmufeng0119
   sections:
     Summary:
-      - bullet:
-          "Ph.D. student at Purdue ECE working on memory-centric architecture and circuits: analog hybrid memory systems fusing eDRAM, RRAM and BEOL oxide-semiconductor FETs, and High-Bandwidth Flash as
-          a new tier in the memory hierarchy."
+      - bullet: "Research on memory systems and architecture for AI, including compute-in-memory and hybrid memory systems."
     Education:
       - institution: Purdue University
         location: West Lafayette, IN, USA
         url: https://engineering.purdue.edu/ECE
         area: Electrical and Computer Engineering
-        degree: PhD
+        degree: Ph.D. Student
         start_date: 2024
         end_date: present
         highlights:
           - Advised by Prof. Haitong Li in the NanoX Lab.
-          - Research focus — analog hybrid memory systems, and High-Bandwidth Flash as a new memory tier.
-      - institution: Huazhong University of Science and Technology
+          - Research interests include AI memory systems, compute-in-memory, and hybrid memory systems.
+      - institution: Zhejiang University
+        location: Hangzhou, China
+        area: Electronic Engineering
+        degree: Graduate Study
+        start_date: 2021
+        end_date: 2024
+      - institution: Huazhong University of Science & Technology
         location: Wuhan, China
-        area: Optics and Electronic Engineering
-        degree: BS
+        area: Optical and Electronic Information Engineering
+        degree: B.Eng.
         start_date: 2017
         end_date: 2021
     Experience:
@@ -35,20 +39,13 @@ cv:
         start_date: 2024
         end_date: present
         summary: Advised by Prof. Haitong Li.
-        highlights:
-          - Analog hybrid memory macros fusing eDRAM, RRAM and BEOL oxide-semiconductor FETs.
-          - Zeroth-order optimization for on-device LLM fine-tuning.
-          - "High-Bandwidth Flash as a memory tier: accelerator interface, placement, and cross-accelerator pooling."
       - company: Zhejiang University
         position: Research Assistant, RFNE Research Center
         location: Hangzhou, China
         start_date: 2021
         end_date: 2024
-        summary: Advised by Prof. Er-Ping Li. Group leader of the RRAM-eDRAM hybrid CiM design program.
-        highlights:
-          - Group leader for the RRAM-eDRAM hybrid CiM design program.
-          - SNN-based vision models, multimodal learning in SNNs, hybrid DNN-HDC.
-          - System-level specification, digital design, and heterogeneous integration of fused CiM.
+        summary: Advised by Prof. Er-Ping Li.
+    Research Internships:
       - company: Purdue University
         position: Research Intern, NanoX Lab
         location: West Lafayette, IN, USA
@@ -56,31 +53,37 @@ cv:
         end_date: 2023
         summary: Summer internship, advised by Prof. Haitong Li.
         highlights:
-          - Monolithic 3D-RRAM compute-in-memory.
-          - Hyperdimensional computing for vision transformers.
+          - Research interests included compute-in-memory and hyperdimensional computing.
       - company: Rice University
         position: Research Intern, SIMS Lab
         location: Houston, TX, USA
         start_date: 2022
         end_date: 2022
         summary: Summer internship, advised by Prof. Kaiyuan Yang.
-        highlights:
-          - Charge-domain SRAM-CiM for Bayesian neural networks.
+    Earlier Experience:
       - company: Wuhan National Laboratory for Optoelectronics
         position: Research Assistant
         location: Wuhan, China
         start_date: 2019
         end_date: 2019
         summary: Advised by Prof. Chen Lin.
-        highlights:
-          - Optical metasurface design (achromatic metalenses).
+    Selected Publications:
+      - bullet: >-
+          M. Chen, L. Zheng, J.-Y. Lin, P. D. Ye, and H. Li. “Analog Multilevel eDRAM-RRAM CIM for Zeroth-Order Fine-tuning of LLMs.” 2025 IEEE International Memory Workshop, pp. 1–4. DOI: 10.1109/IMW61990.2025.11026966.
+      - bullet: >-
+          L. Zheng, A. M. Bavani, M. Chen, et al. “PROTEUS: A 40 nm Programmable General-Purpose Digital Compute-In-Memory Accelerator With eNVM and Hierarchical ISA for Versatile Edge AI.” IEEE Journal of Solid-State Circuits, 2026. DOI: 10.1109/JSSC.2026.3694285.
+      - bullet: >-
+          L. Zheng, Z. Wang, S. Du, M. Chen, A. M. Bavani, and H. Li. “Heterogeneous Compute-in-Memory Fabrics for Efficient, Scalable Edge Inference and Learning.” 2026 International Symposium on Quality Electronic Design. DOI: 10.1109/ISQED69900.2026.11534674.
+      - bullet: >-
+          L. Zheng, A. M. Bavani, S. Du, T.-Y. Hsin, M. Chen, W.-S. Khwa, A. Lele, et al. “CENTAUR: A 38.5-TFLOPS/W 600MHz Floating-Point Digital Compute-In-Memory Engine with 40nm Fusion RRAM-eDRAM Macros Featuring 3D-MAC Operation.” 2025 IEEE Asian Solid-State Circuits Conference. DOI: 10.1109/A-SSCC67472.2025.11349414.
+      - bullet: >-
+          E.-P. Li, H. Ma, M. Ahmed, T. Tao, Z. Gu, M. Chen, Q. Chen, D. Li, and W. Chen. “An Electromagnetic Perspective of Artificial Intelligence Neuromorphic Chips.” Electromagnetic Science, 1(3), 2023. DOI: 10.23919/emsci.2023.0015.
+      - bullet: >-
+          C. Yu, Y. Du, M. Chen, A. Wang, G. Wang, and E. Li. “MAP-SNN: Mapping Spike Activities with Multiplicity, Adaptability, and Plasticity into Bio-Plausible Spiking Neural Networks.” Frontiers in Neuroscience, 16, 945037, 2022. DOI: 10.3389/fnins.2022.945037.
     Technical Skills:
       - label: Circuit & EDA
         details: Cadence Virtuoso, Synopsys VCS, Design Compiler, Innovus
       - label: Programming
         details: Python (PyTorch), C/C++, MATLAB, Verilog/SystemVerilog
       - label: Research areas
-        details: Memory hierarchy / HBF, compute-in-memory, hybrid memory systems, mixed-signal CMOS+X, hyperdimensional computing
-    Transcripts:
-      - bullet: "B.S. transcript: [download](https://chenmufeng0119.github.io/assets/pdf/B.S.Transcript.pdf)"
-      - bullet: "Graduate transcript: [download](https://chenmufeng0119.github.io/assets/pdf/M.S.Transcript.pdf)"
+        details: AI memory systems and architecture, compute-in-memory, hybrid memory systems, High-Bandwidth Flash research, hyperdimensional computing
