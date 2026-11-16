@@ -9,7 +9,7 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
-<p>See my <a href="https://scholar.google.com/citations?user=FKZmlWIAAAAJ&amp;hl=en">Google Scholar profile</a> for citation details.</p>
+<p>See my <a href="https://scholar.google.com/citations?user=FKZmlWIAAAAJ&amp;hl=en">Google Scholar profile</a> for details.</p>
 
 <!-- Bibsearch Feature -->
 
