@@ -224,6 +224,11 @@ nav_order: 3
     flex: 1 1 20rem;
   }
 
+  .research-projects .publication-entry .manuscript-description {
+    flex: 1 1 100%;
+    margin: 0;
+  }
+
   .research-projects .earlier-list {
     margin: 0 0 1.5rem;
     padding: 0;
@@ -305,10 +310,11 @@ nav_order: 3
 </section>
 {% endif %}
 
-{% assign accelerator_projects = site.projects | where: "category", "Domain-Specific Accelerators" | where_exp: "project", "project.project_type != 'publication'" | sort: "importance" %}
+{% assign accelerator_projects = site.projects | where: "category", "Domain-Specific Accelerators" | where_exp: "project", "project.project_type != 'publication' and project.project_type != 'manuscript'" | sort: "importance" %}
 {% assign accelerator_publications = site.projects | where: "category", "Domain-Specific Accelerators" | where: "project_type", "publication" %}
+{% assign accelerator_manuscripts = site.projects | where: "category", "Domain-Specific Accelerators" | where: "project_type", "manuscript" | sort: "importance" %}
   <section class="published-work" aria-labelledby="published-work-title">
-    <p class="section-kicker">Published work</p>
+    <p class="section-kicker">Published and ongoing work</p>
     <h2 id="published-work-title">Domain-Specific Accelerators</h2>
     <div class="published-list">
       {% for project in accelerator_projects %}
@@ -333,17 +339,29 @@ nav_order: 3
         <span><a href="https://ieeexplore.ieee.org/document/11534674">Publication</a> · <a href="{{ '/assets/pdf/isqed26-heterogeneous-cim.pdf' | relative_url }}">PDF</a></span>
       </div>
     {% endfor %}
+    {% for project in accelerator_manuscripts %}
+      <div class="publication-entry">
+        <a class="publication-title" href="{{ project.url | relative_url }}">{{ project.title }}</a>
+        <span>{{ project.manuscript_status }}</span>
+        <p class="manuscript-description">{{ project.description }}</p>
+      </div>
+    {% endfor %}
   </section>
 
+{% assign memory_manuscripts = site.projects | where: "category", "Main/Storage-Class Memory Level" | where: "project_type", "manuscript" | sort: "importance" %}
   <section class="hbf-level" aria-labelledby="hbf-level-title">
-    <p class="section-kicker">In progress</p>
+    <p class="section-kicker">Ongoing research</p>
     <h2 id="hbf-level-title">Main/Storage-Class Memory Level</h2>
-    <div class="hbf-feature">
-      <p>Exploring high-bandwidth flash within heterogeneous memory systems for GPU-based AI and LLM workloads.</p>
-    </div>
+    {% for project in memory_manuscripts %}
+      <div class="publication-entry">
+        <a class="publication-title" href="{{ project.url | relative_url }}">{{ project.title }}</a>
+        <span>{{ project.manuscript_status }}</span>
+        <p class="manuscript-description">{{ project.description }}</p>
+      </div>
+    {% endfor %}
   </section>
 
-{% assign earlier_projects = site.projects | where: "category", "Earlier Research" | where_exp: "project", "project.show_in_projects != false" | where_exp: "project", "project.title != 'Hyperdimensional computing'" | sort: "importance" %}
+{% assign earlier_projects = site.projects | where: "category", "Earlier Research" | where_exp: "project", "project.show_in_projects != false" | sort: "importance" %}
   <section class="earlier-work" aria-labelledby="earlier-work-title">
     <h2 id="earlier-work-title">Earlier research</h2>
     <ul class="earlier-list">

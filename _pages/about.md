@@ -30,7 +30,9 @@ I am a Ph.D. student in Electrical and Computer Engineering at **Purdue Universi
 
 #### Research areas
 
-I study how memory-hierarchy design and data movement shape the efficiency of AI and LLM systems. My ongoing work explores heterogeneous high-bandwidth memory (HBM) and high-bandwidth flash (HBF) systems for LLM serving. At the cache level, my GPU architecture project explores register-file caching and warp scheduling.
+I study how memory-hierarchy design and data movement shape the efficiency of AI and LLM systems. My ongoing work explores [heterogeneous high-bandwidth memory (HBM) and high-bandwidth flash (HBF) systems for near-memory LLM decoding](/projects/11_hbm_hbf/), including simulation and thermal- and cost-aware design-space exploration (manuscript under review). At the cache level, my GPU architecture project explores register-file caching and warp scheduling.
+
+I also work on [HD-ViT and ChainCIM](/projects/2_hd_computing/), co-designing neuro-symbolic vision models with fused RRAM–eDRAM compute-in-memory for few-shot learning at the edge (manuscript under review).
 
 More broadly, my research interests span memory systems, from memory technologies to circuit–architecture co-design. Related publications include my first-author paper on [analog multilevel eDRAM–RRAM compute-in-memory (CIM) for LLM fine-tuning](https://doi.org/10.1109/IMW61990.2025.11026966), the [CENTAUR floating-point CIM engine](/projects/7_centaur/), the [PROTEUS programmable CIM accelerator](/projects/8_proteus/), and [heterogeneous CIM fabrics for edge inference and learning](/projects/9_isqed/).
 
